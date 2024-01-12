@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Игра Змейка</title>
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="icon" href="img/iconSnake.ico">
+</head>
+<body>
+    <div id="pauseList">
+        <span id="spanPause">Пауза</span>
+    </div>
+
+    <canvas id="game" width="608" height="608"></canvas>
+
+    <div id="buttons">
+        <button id="keyboard" class="button"><img src="img/keyboard.png" alt="keyboard"></button>
+        <button id="restart" class="button">Начать заново</button>
+        <button id="pause" class="button"><img src="img/pausePalki.png" alt="pause" id="pauseImg"></button>
+    </div>
+    
+    <script src="js/game.js"></script>
+</body>
+</html>

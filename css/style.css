@@ -1,0 +1,84 @@
+:root {
+    --colorBody: #48EA5D;
+    --colorText: #000000;
+    --colorButton: #16EB7A;
+    --colorShadow: #1c1e1c;
+    --colorButtonHover: #49EBCC;
+    --colorButtonActive: #49B4CC;
+}
+
+#game {
+    display: block;
+    margin: 0 auto;
+}
+
+body {
+    background-color: var(--colorBody);
+}
+
+/****************дизайн кнопок***************/
+#buttons {
+    display: flex;
+}
+
+.button {
+    background-color: var(--colorButton);
+    box-shadow: 1px 1px 10px var(--colorShadow);
+    height: 50px;
+    border-radius: 50px;
+}
+
+.button:hover {
+    background-color: var(--colorButtonHover);
+}
+
+.button:active {
+    background-color: var(--colorButtonActive);
+}
+
+#keyboard {
+    width: 70px;
+    margin-top: 5px;
+    margin-left: 40%;
+}
+
+#restart {
+    color: var(--colorText);
+    font-weight: 900;
+    margin: 5px auto;
+    width: 150px;
+    font-family: 'Play', sans-serif;
+    font-size: 17px;
+}
+
+#pause {
+    width: 70px;
+    margin-top: 5px;
+    margin-right: 40%;
+}
+
+#pauseImg {
+    margin: 0px 7%;
+}
+/***********************************************/
+
+/***********Окно паузы************/
+#pauseList {
+    margin: 10% 37%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    background-color: #B8DE90;
+    position: fixed;
+    width: 25%;
+    height: 50%;
+    border: 5px solid var(--colorText);
+    border-radius: 50px;
+}
+
+#spanPause {
+    color: var(--colorText);
+    font-size: 100px;
+    font-family: 'Play', sans-serif;
+}
+/************************************************/
