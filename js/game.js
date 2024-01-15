@@ -292,13 +292,13 @@ let drawGame = function() {
 	else if (score < 40) ctx.fillStyle = "red";
 	else if (score < 50) ctx.fillStyle = "yellow";
 	else if (score < 256) ctx.fillStyle = "black";
-	ctx.font = "50px Arial";
+	ctx.font = "50px Play";
 	ctx.fillText(score, block * 2.5, block * 1.7);
 	//--------------------------------------------
 
 	//оформляем лучший результат
 	ctx.fillStyle = "white";
-	ctx.font = "50px Arial";
+	ctx.font = "50px Play";
 	ctx.fillText(`Рекорд: ${bestScore}`, block * 10, block * 1.7);
 	//-----------------------------------------------
 			
